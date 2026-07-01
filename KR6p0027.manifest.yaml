@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6p0027/v1
+canonical_location: https://kanripo.org/bkk/KR6p0027/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 阿彌陀經註
+  identifiers:
+    alt_id:
+    - X22n0432
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X22/X22n0432.xml
+    old_id: X22n0432
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0027_000.yaml, hash: 'sha256:4233b9736949637aa03e6a1cf94213c35ca50d0aa807ed17786e09d56fce9f4e'}
+  - {seq: 1, filename: KR6p0027_001.yaml, hash: 'sha256:619f194c6e9d4d32b51b488573cd2aeec6bbbc7c45a36aa35c180f7140f0e608'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6p0027_001.markers.yaml, hash: 'sha256:3953203bcbfdd27271d0629873c1b77ec98ce79219ed92e8067cf72567fc69d2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6p0027_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 13101
+  label: 修西定課
+  type: juan
+  level: 1
+hash: sha256:59b03788523f0e93fcc0e7eddf3085ffae3463cd6ca51dc516c47c5ffd7428c5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
