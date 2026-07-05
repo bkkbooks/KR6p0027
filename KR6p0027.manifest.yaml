@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6p0027_000.yaml, hash: 'sha256:4233b9736949637aa03e6a1cf94213c35ca50d0aa807ed17786e09d56fce9f4e'}
-  - {seq: 1, filename: KR6p0027_001.yaml, hash: 'sha256:619f194c6e9d4d32b51b488573cd2aeec6bbbc7c45a36aa35c180f7140f0e608'}
+  - {seq: 1, filename: KR6p0027_001.yaml, hash: 'sha256:c355bc32f51edd1e9a35edad4268b577529852726f213f705e65198890db651c'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6p0027_001.markers.yaml, hash: 'sha256:3953203bcbfdd27271d0629873c1b77ec98ce79219ed92e8067cf72567fc69d2'}
+  - {seq: 0, role: markers, filename: assets/KR6p0027_000.markers.yaml, hash: 'sha256:44016d3bf2086d5ad9ab0bd018e1b2647a481f854ad8b3eefd91f3cd99c448df'}
+  - {seq: 1, role: markers, filename: assets/KR6p0027_001.markers.yaml, hash: 'sha256:ccd6b08be7b4d53cbc87088fc0b97bc28217ba0d60ab582ae2494cd319d63bc2'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 修西定課
   type: juan
   level: 1
-hash: sha256:59b03788523f0e93fcc0e7eddf3085ffae3463cd6ca51dc516c47c5ffd7428c5
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:55e7ae6d3746bd73a366d0f9b78d2cb5c715022f9af2d8017ec703683de66340
